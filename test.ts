@@ -1,5 +1,8 @@
-let nombre:string="Carlos";
-function saludo(nombre){
-    return "Hola "+nombre;
+function imprPantalla(a,b){
+    return a+b;
 }
-document.getElementById("encabezado").innerHTML=saludo(nombre);
+
+let a:number=10;
+let b:number=5;
+
+document.getElementById("encabezado").innerHTML=imprPantalla(a,b);

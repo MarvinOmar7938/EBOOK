@@ -1,5 +1,6 @@
-var nombre = "Carlos";
-function saludo(nombre) {
-    return "Hola " + nombre;
+function imprPantalla(a, b) {
+    return a + b;
 }
-document.getElementById("encabezado").innerHTML = saludo(nombre);
+var a = 10;
+var b = 5;
+document.getElementById("encabezado").innerHTML = imprPantalla(a, b);
