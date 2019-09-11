@@ -1,8 +1,8 @@
-function imprPantalla(a,b){
-    return a+b;
+let a =10;
+if(true){
+    let a=15;
+    console.log("Dentro del if a tiene un valor de " +a);
+}else{
+    //
 }
-
-let a:number="Jorge";
-let b:number=5;
-
-document.getElementById("encabezado").innerHTML=imprPantalla(a,b);
+console.log("Fuera del if a tiene un valor de "+a);
