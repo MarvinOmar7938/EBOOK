@@ -1,7 +1,7 @@
 var a = 10;
 if (true) {
-    var a_1 = 15;
-    console.log("Dentro del if a tiene un valor de " + a_1);
+    var a = 15;
+    console.log("Dentro del if a tiene un valor de " + a);
 }
 else {
     //
