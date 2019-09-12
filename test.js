@@ -1,8 +1,8 @@
 var Curso = /** @class */ (function () {
-    function Curso() {
-        this.titulo = "Nombre del curso";
-        this.description = "Lorem ipsum";
-        this.horas = 20;
+    function Curso(titulo, description, horas) {
+        this.titulo = titulo;
+        this.description = description;
+        this.horas = horas;
         this.inscritos = 0;
     }
     Curso.prototype.getInscritos = function () {
@@ -19,7 +19,7 @@ var Curso = /** @class */ (function () {
     };
     return Curso;
 }());
-var cursoAngular = new Curso();
+var cursoAngular = new Curso("cursoAngular", "Lorem ipsum", 100);
 // cursoAngular.setInscritos(9);
 // cursoAngular.addInscrito();
 console.log(cursoAngular);
