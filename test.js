@@ -1,6 +1,5 @@
 var Curso = /** @class */ (function () {
-    function Curso(titulo, description, horas) {
-        this.titulo = titulo;
+    function Curso(description, horas) {
         this.description = description;
         this.horas = horas;
         this.inscritos = 0;
